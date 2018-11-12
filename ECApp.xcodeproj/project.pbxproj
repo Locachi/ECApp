@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF15835421993A94009FBF6B /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF15835321993A94009FBF6B /* ItemViewController.swift */; };
+		FF1583562199424F009FBF6B /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1583552199424F009FBF6B /* AccountViewController.swift */; };
+		FF15835821994392009FBF6B /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF15835721994392009FBF6B /* FavoriteViewController.swift */; };
+		FF15835A219943A3009FBF6B /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF158359219943A3009FBF6B /* SearchViewController.swift */; };
+		FF15835C219943B4009FBF6B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF15835B219943B4009FBF6B /* ChatViewController.swift */; };
 		FF7093862197F61F00EBEB6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7093852197F61F00EBEB6F /* AppDelegate.swift */; };
 		FF7093882197F61F00EBEB6F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7093872197F61F00EBEB6F /* ViewController.swift */; };
 		FF70938B2197F61F00EBEB6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7093892197F61F00EBEB6F /* Main.storyboard */; };
@@ -15,6 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF15835321993A94009FBF6B /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		FF1583552199424F009FBF6B /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		FF15835721994392009FBF6B /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		FF158359219943A3009FBF6B /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		FF15835B219943B4009FBF6B /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		FF7093822197F61F00EBEB6F /* ECApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ECApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7093852197F61F00EBEB6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF7093872197F61F00EBEB6F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +66,11 @@
 			children = (
 				FF7093852197F61F00EBEB6F /* AppDelegate.swift */,
 				FF7093872197F61F00EBEB6F /* ViewController.swift */,
+				FF15835321993A94009FBF6B /* ItemViewController.swift */,
+				FF1583552199424F009FBF6B /* AccountViewController.swift */,
+				FF15835721994392009FBF6B /* FavoriteViewController.swift */,
+				FF158359219943A3009FBF6B /* SearchViewController.swift */,
+				FF15835B219943B4009FBF6B /* ChatViewController.swift */,
 				FF7093892197F61F00EBEB6F /* Main.storyboard */,
 				FF70938C2197F62300EBEB6F /* Assets.xcassets */,
 				FF70938E2197F62300EBEB6F /* LaunchScreen.storyboard */,
@@ -135,8 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF15835A219943A3009FBF6B /* SearchViewController.swift in Sources */,
 				FF7093882197F61F00EBEB6F /* ViewController.swift in Sources */,
 				FF7093862197F61F00EBEB6F /* AppDelegate.swift in Sources */,
+				FF15835C219943B4009FBF6B /* ChatViewController.swift in Sources */,
+				FF1583562199424F009FBF6B /* AccountViewController.swift in Sources */,
+				FF15835421993A94009FBF6B /* ItemViewController.swift in Sources */,
+				FF15835821994392009FBF6B /* FavoriteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
